@@ -32,13 +32,29 @@ int main()
    }
   }
   else if (a == 3) {
-
+   string file;
+   cout << "File: ";
+   cin >> file;
+   ifstream in(file);
+   string type;
+   while (in >> type) {
+        if (type == "v") {
+          ab->AddMark(vf, in);
+        }
+        else {
+              ab->AddMark(rf, in);
+        }
+   }
   }
   else if (a == 4) {
-
+          cout << *ab;
   }
   else if (a == 5) {
-
+    string file;
+       cout << "File: ";
+       cin >> file;
+       ofstream out(file);
+       out << *ab;
   }
   else {
    return 0;
