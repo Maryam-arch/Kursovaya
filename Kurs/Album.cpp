@@ -1,7 +1,6 @@
 #include "Album.h"
 #include <algorithm>
 
-
 Album::Album()
 {
 }
@@ -18,7 +17,6 @@ void Album::AddMark(MarkFactory & f, std::istream& in)
  in >> *m;
  marks.push_back(m);
 }
-
 
 Album::~Album()
 {

@@ -5,19 +5,14 @@
 #include "VirtualRole.h"
 #include "VitrualMaterial.h"
 
-
 VirtualFactory::VirtualFactory()
 {
 }
 
-
 VirtualFactory::~VirtualFactory()
 {
 }
-
-
 // Унаследовано через MarkFactory
-
 std::string VirtualFactory::Type() { return "v"; }
 
 MarkCity * VirtualFactory::markCity()

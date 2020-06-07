@@ -7,7 +7,6 @@ class RealFactory :
 public:
  RealFactory();
  ~RealFactory();
-
  // Унаследовано через MarkFactory
  virtual std::string Type() override;;
  virtual MarkCity * markCity() override;

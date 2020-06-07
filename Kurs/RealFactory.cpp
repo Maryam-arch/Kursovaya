@@ -9,11 +9,9 @@ RealFactory::RealFactory()
 {
 }
 
-
 RealFactory::~RealFactory()
 {
 }
-
 
 // Унаследовано через MarkFactory
 
